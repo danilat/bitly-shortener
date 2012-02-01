@@ -1,7 +1,6 @@
 <html>
   <head>
 	  <title>Bitly test</title>
-	  
   </head>
 
   <body>
