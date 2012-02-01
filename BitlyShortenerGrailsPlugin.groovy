@@ -11,11 +11,11 @@ class BitlyShortenerGrailsPlugin {
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
-    def authorEmail = ""
-    def title = "Plugin summary/headline"
+    def author = "Dani Latorre"
+    def authorEmail = "dani@danilat.com"
+    def title = "Bitly shortener"
     def description = '''\\
-Brief description of the plugin.
+A wrapper to bitly.com shorten API method
 '''
 
     // URL to the plugin's documentation
