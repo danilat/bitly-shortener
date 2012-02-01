@@ -10,7 +10,7 @@ grails install-plugin bitly-shortener
 
 # Configuration #
 
-In Config.groovy should be configured login, apiKey; and optionally the custom domain (may be your own domain if you have a premium acount).
+In Config.groovy should be configured login, apiKey; and optionally the custom domain (may be your own domain if you have a premium account).
 
 ```
 bitly.login = "danilat"
@@ -20,7 +20,7 @@ bitly.domain = "j.mp" //optional
 
 # How to #
 
-There are 2 grails artifacts de grails, a service bitlyService:
+There are 2 grails grails artifacts, a service bitlyService:
 
 ```
 def shortened = bitlyService.shorten("http://www.danilat.com")
