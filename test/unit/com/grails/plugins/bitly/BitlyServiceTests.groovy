@@ -18,7 +18,7 @@ class BitlyServiceTests extends GrailsUnitTestCase {
     }
 
     void testShortAnUrl() {
-		def shortened = bitlyService.shorten("http://www.google.com")
+		def shortened = bitlyService.shorten("http://www.danilat.com")
 		assertEquals 200, shortened.statusCode
 		assertEquals "OK", shortened.statusText
 		assertNotNull shortened.url
@@ -26,14 +26,14 @@ class BitlyServiceTests extends GrailsUnitTestCase {
 	
 	void testShortAnUrlWithACustomDomain() {
 		bitlyService.domain = 'j.mp'
-		def shortened = bitlyService.shorten("http://www.google.com")
+		def shortened = bitlyService.shorten("http://www.danilat.com")
 		assertEquals 200, shortened.statusCode
 		assertEquals "OK", shortened.statusText
 		assertNotNull shortened.url
 	}
 	
 	void testShortAMalformedUrl() {
-		def shortened = bitlyService.shorten("www.google.com")
+		def shortened = bitlyService.shorten("www.danilat.com")
 		assertEquals 500, shortened.statusCode
 		assertEquals "INVALID_URI", shortened.statusText
     }
