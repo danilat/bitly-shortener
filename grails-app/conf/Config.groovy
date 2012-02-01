@@ -22,3 +22,6 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
+
+bitly.login = 'danilat'
+bitly.apiKey = 'R_dfe892d83437cf0ae1a745021ca106c1'
