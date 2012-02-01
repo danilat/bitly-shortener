@@ -1,0 +1,6 @@
+*.log
+/target
+/.settings
+/*-*.zip
+dev-config.groovy
+
