@@ -19,7 +19,7 @@ A wrapper to bitly.com shorten API method
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/bitly-shortener"
+    def documentation = "https://github.com/danilat/bitly-shortener"
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before 
